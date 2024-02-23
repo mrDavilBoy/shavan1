@@ -1,0 +1,14 @@
+<html>
+ <head>
+     <title>Page Access Counter</title>
+ </head>
+  <body>
+    <form action="seta1.php" method="post">
+    <h1>Welcome to my Website</h1>
+    <p>This is a demo page to show how to track the number of times a page has been accessed using PHP</p>
+    <p>This page has been accessed<?php echo $_COOKIE['page_count']; ?> times(cookie) and <?php echo $_SESSION['page_count'];?> times(session).</p>
+    </form>
+   </body>
+   
+</head>
+    
